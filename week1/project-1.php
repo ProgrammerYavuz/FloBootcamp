@@ -40,26 +40,4 @@ echo "<br><br><br>";
 echo "<h2><b>Eğer Koyun Yoksa</b></h2>";
 agilduzeni(2,10,-10);
 echo "<br><br><br>";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
