@@ -30,7 +30,7 @@ if(isset($_GET["id"])){// Silme İşleminde Tanımsız Hatası Almammak İçin K
 if ($olay == "ekle") {
 
     if($isim!="" and $telefon!=""){
-        $EklemeSorgusu  =   $VeriTabaniBaglantisi->prepare("INSERT INTO kullanicilar (AdSoyad, Telefon) values (?, ?)");
+        $EklemeSorgusu  =   $VeriTabaniBaglantisi->prepare("INSERT INTO kullanicilar (AdSoyad, Telefon) VALUES (?, ?)");
         $EklemeSorgusu->execute([$isim, $telefon]);
         $KayitKontrol   =   $EklemeSorgusu->rowCount();
     

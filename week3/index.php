@@ -1,3 +1,6 @@
+<?php
+// Kayıt Sayfası
+?>
 <!DOCTYPE html>
 <html lang="tr">
 <head>

@@ -1,15 +1,10 @@
 <?php
-
-//listelemeyi yap ve sil butonu ekle
-//sil butonuna basılınca veriyi sil ve liste sayfasına dön
-
 try{
     $VeriTabaniBaglantisi   =   new PDO("mysql:host=localhost;dbname=kayitlar;charset=UTF8", "yavuz", "1234");
 }catch(PDOException $Hata){
     echo "Bağlantı Hatası<br />" . $Hata->getMessage();
     die();
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="tr">
