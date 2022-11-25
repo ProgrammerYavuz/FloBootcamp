@@ -1,6 +1,6 @@
 ## Aktar Hesaplama Uygulaması
 
-* Ürünlerin taze veya bayat olması durumuna göre yeni fiyat belirlenir.
+* Ürünlerin taze veya bayat olması durumuna göre fiyat belirlenir.
 
 ### Taze
 
