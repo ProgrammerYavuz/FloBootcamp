@@ -8,7 +8,7 @@
   $tektoplam = 0;
   $cifttoplam = 0;
 
-  if (is_numeric($tckimlik) and $adsoyad) { // tckimlik değeri bir sayı mı ve adsoyad değeri true mu
+  if (is_numeric($tckimlik) and $adsoyad) { // tckimlik değeri bir sayı mı ve adsoyad değeri true mu?
 
     $sayi = strlen($tckimlik); // tc kimlik sayısı hesaplanır
 
@@ -27,9 +27,11 @@
       $sayi10 = (($tektoplam * 7) - $cifttoplam) % 10;
       $sayi11 = ($cifttoplam + $tektoplam + $sayi10) % 10;
 
+      $ilksayi = substr($tckimlik,0,1);// 1.sayı
+      $sonikincisayi = substr($tckimlik,-2,1);// 10.sayı
       $sonsayi = substr($tckimlik,-1);// 11.sayı
 
-      if ($sayi11 == $sonsayi) {
+      if ($sayi11 == $sonsayi and $sayi10 == $sonikincisayi and $ilksayi != 0) {
         $durum = "TC Kimlik Geçerli";
       } else {
         $durum = "TC Kimlik Geçersiz";
