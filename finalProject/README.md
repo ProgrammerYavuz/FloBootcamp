@@ -2,8 +2,8 @@
 
 ## Proje Tanıtımı
 * Sistemde iki farklı alan vardır. Bunlar; admin paneli kısmı ve kan sorgulama alanlarıdır.
-* Eğer kan sorgulama alanı için oturum açma işlemi gerekmemektedir.
-* Bu alanda kişi kendi kan grubunu seçerek sistemde bulunan mevcut kan stoğuna ulaşabilir.
+* Kan sorgulama alanı için oturum açma işlemi gerekmemektedir.
+* Bu alanda kişi kendi kan grubunu seçerek sistemde bulunan mevcut kan stokuna ulaşabilir.
 * Yönetici kısmında bir oturum açma işlemi gerçekleştirilir.
 * Yönetici paneline girilince burada sistemde kayıtlı donör sayısına, donörlerin ad soyad, 
  telefon, posta, kan grubu ve kaç ünite kan bağışı yaptığı bilgileri görüntülenir.
