@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+    color: #000;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.baslik{
+    font-weight: bold;
+    background: #0174cf;
+    color: #f1f1f1;
+}
+
+input{
+    width: 400px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    border: none;
+    border: 2px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+button{
+    padding: 7px 15px;
+    margin: 10px auto;
+    border: none;
+    border: 3px solid #0174cf;
+    border-radius: 10px;
+    background: #0174cf;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:active{
+    border: 3px solid #fff;
+}
+
+table, th, td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  user-select: text;
+}
+th, td {
+  padding: 10px;
+  font-weight: normal;
+  font-weight: bold;
+}
+
+.dugme{
+    padding: 7px 15px;
+    margin: 10px auto;
+    border: none;
+    border: 3px solid #0174cf;
+    border-radius: 10px;
+    background: #0174cf;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dugme:hover{
+    border: 3px solid #fff;
+}
+
+select {
+    width:auto;
+    height:auto;
+    padding: 10px 20px;
+    border:2px solid #0174cf;
+    border-radius:5px;
+    background-color:transparent;
+    color:#0174cf;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+option {
+    background-color:transparent;
+    color:#0174cf;
+    font-weight: bold;
+}
+
+
+select#kangrubuid {
+    width:400px;
+    height:auto;
+    padding: 10px 20px;
+    margin: 10px auto;
+    border:2px solid #000;
+    border-radius:10px;
+    background-color:transparent;
+    color:#0174cf;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.yonetimtable{
+    border: 1px solid transparent;
+}
+
+.yonetimtable input{
+    width: calc(100% - 64px);
+    padding: 8px 10px;
+    margin: 10px auto;
+    border: none;
+    border: 2px solid #000;
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+}
+
+.yonetimtable button{
+    padding: 10px 15px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #1c1c1c;
+    color: #fff;
+    cursor: pointer;
+}
+
+.yonetimtable button:hover{
+    background: #0174cf;
+}
+
+.yonetimtable button:active{
+    border: none;
+}
