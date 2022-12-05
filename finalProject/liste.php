@@ -8,7 +8,7 @@
         $grubu = mb_substr($kangrubu,1); // Kan grubu elde edildi.
         $kanmiktari = 0;
 
-        $sorgu = $baglan->prepare("select * from donorler where (kangrubuid=?) order by adsoyad asc");
+        $sorgu = $baglan->prepare("select * from donorler where (kangrubuid=?)");
         $sorgu->execute(array($id));
         $kayitsayisi = $sorgu->rowCount();
 
