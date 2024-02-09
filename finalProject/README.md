@@ -56,6 +56,6 @@
 #### * Başarılı oturum sonlandırma geri bildirimi
 ![flo-(12)](https://user-images.githubusercontent.com/109480983/205435470-bc8a126c-78c1-4bd9-bb3c-70a47e65bfcb.png)
 <br><br>
-#### * Oturum izni geren alanlara erişmek istenildiğinde verilecek geri bildirim
+#### * Oturum izni gereken alanlara erişmek istenildiğinde verilecek geri bildirim
 ![flo-(13)](https://user-images.githubusercontent.com/109480983/205435563-9fed5227-dedb-47bf-a1b1-7c0c0ae99a9d.png)
 <br><br>
